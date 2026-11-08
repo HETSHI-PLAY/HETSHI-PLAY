@@ -5,17 +5,17 @@
   │  Cara pakai:                                                 │
   │  1. Buat repo baru dengan nama PERSIS: HETSHI-PLAY           │
   │  2. Jadikan repo itu Public                                  │
-  │  3. Upload README.md + folder assets/banner.gif              │
+  │  3. Upload README.md + seluruh folder assets/                │
   │  4. Ganti bagian yang ditandai [GANTI]                       │
   └──────────────────────────────────────────────────────────────┘
 -->
 
 <div align="center">
 
-<img src="assets/banner.gif" width="100%" alt="HETSHI-PLAY — Blue Team / SOC animated banner" />
+<img src="assets/hero.gif" width="100%" alt="HETSHI-PLAY — animated anime + SOC banner" />
 
 <a href="https://github.com/HETSHI-PLAY">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&lines=whoami+%E2%86%92+HETSHI-PLAY;Detecting+threats%2C+one+alert+at+a+time+%F0%9F%9B%A1%EF%B8%8F;Building+tools+for+the+blue+team+%F0%9F%94%A7;Hunting+flags+on+CTF+%F0%9F%9A%A9" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1100&color=22D3EE&center=true&vCenter=true&width=680&lines=whoami+%E2%86%92+HETSHI-PLAY;SOC+by+day%2C+anime+by+night;Detecting+threats%2C+not+red+flags+in+anime;Building+tools+so+future+me+suffers+less" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -34,7 +34,7 @@
 
 ---
 
-## 🛡️ Tentang Saya
+## 🧑‍💻 whoami
 
 ```bash
 $ whoami
@@ -45,35 +45,27 @@ ROLE      = "SOC Analyst / Blue Team"
 FOCUS     = "Threat Detection · Incident Response · Security Automation"
 SIEM      = "Wazuh"
 TOOLING   = "Python · JavaScript · n8n · Docker"
-INTERESTS = "DFIR · Threat Intel · CTF (picoCTF)"
+INTERESTS = "DFIR · Threat Intel · CTF (picoCTF) · anime"
 MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
+
+$ sleep 8 && echo "iya, masih bangun"
 ```
 
-- 🔭 Sedang mengembangkan **Arbiter** & **DIPTERA** — tools untuk mempercepat kerja SOC
-- 🧠 Mendalami **Detection Engineering, DFIR, dan Threat Intelligence**
-- 🚩 Aktif main **CTF**, terutama kategori forensics, web, dan reversing
-- ⚙️ Suka mengotomasi workflow analis pakai **n8n + Python**
-- 💬 Ngobrol soal **Wazuh, SIEM, log analysis, atau automation**? Siap.
+Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, dan sesekali lari ke CTF buat cari flag. Kalau nggak di depan terminal, ya lagi nonton anime. Keseimbangan, katanya.
 
 ---
 
-## 🎯 Fokus Bidang
+## 🎯 Lagi Ngapain
 
-<div align="center">
-
-| Area | Yang saya kerjakan |
-| :--- | :--- |
-| 🛡️ **Blue Team / SOC** | Triage alert, analisis telemetri, penulisan laporan insiden |
-| 🔍 **Threat Detection** | Rule tuning, korelasi threat intel, normalisasi log |
-| 🧪 **DFIR** | Investigasi artefak, timeline, dan bukti forensik |
-| 🤖 **Security Automation** | Integrasi n8n, pipeline alert, tooling internal |
-| 🚩 **CTF** | Web exploitation, forensics, scripting challenge |
-
-</div>
+- 🔭 Ngerjain **Arbiter** & **DIPTERA** — dua-duanya tool buat bikin hidup analis sedikit lebih waras
+- 🧠 Belajar **Detection Engineering, DFIR, dan Threat Intelligence**
+- 🚩 Main **CTF** (forensics, web, reversing) — mostly buat seneng-seneng
+- ⚙️ Suka ngotomasi workflow SOC pakai **n8n + Python**
+- 🌙 Jam produktif: malam. Jangan tanya soal tidur.
 
 ---
 
-## 🛠️ Tech & Tools
+## 🧰 Senjata & Tools
 
 <div align="center">
 
@@ -101,10 +93,10 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Project yang (semoga) berguna
 
 ### 🕵️ Arbiter
-> *Airgapped SOC investigation desk* untuk telemetri **Wazuh SIEM** — normalisasi log, korelasi threat intel, penulisan kasus insiden, dan laporan forensik dalam satu tempat.
+> Meja investigasi SOC *airgapped* buat telemetri **Wazuh** — normalisasi log, korelasi threat intel, nulis kasus insiden, sampai laporan forensik. Biar analis nggak pindah-pindah tab kayak lagi belanja online.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/Arbiter)
 
@@ -113,7 +105,7 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 ---
 
 ### 🧬 DIPTERA
-> Halaman web statis tanpa backend untuk mengirim **banyak form alert sekaligus** ke workflow n8n *Charlie Reporter*, memantau tiap eksekusi, lalu membaca hasilnya per kartu. Cocok untuk workflow lambat berbasis AI lokal.
+> Kirim **banyak form alert sekaligus** ke workflow n8n *Charlie Reporter*, lalu pantau hasilnya per kartu. Cocok buat workflow lambat yang pakai AI lokal: isi 10 alert, klik kirim, tinggalin, balik lagi nanti.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/DIPTERA)
 
@@ -122,7 +114,7 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 ---
 
 ### 🛰️ NexusSOC
-> Toolkit SOC personal yang menyatukan berbagai tools keamanan open-source ke dalam satu dashboard, supaya analisis ancaman lebih cepat dan tidak berpindah-pindah tab.
+> Toolkit SOC personal: tools keamanan open-source disatuin ke satu dashboard. Karena alt-tab 27 kali sehari itu bukan hobi.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/NexusSOC)
 
@@ -131,7 +123,7 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 ---
 
 ### 🔓 zip-rar_BruteForce
-> Tool Python untuk brute force arsip ZIP/RAR — dipakai untuk latihan dan riset keamanan sandi arsip.
+> Tool Python buat brute force arsip ZIP/RAR. Dibuat buat latihan dan riset — bukan buat nge-hack arsip mantan.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/zip-rar_BruteForce)
 
@@ -140,7 +132,7 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 ---
 
 ### 🚩 PICOCTF-2025
-> Kumpulan writeup dan script penyelesaian challenge **picoCTF 2025**.
+> Writeup dan script penyelesaian challenge **picoCTF 2025**. Ada yang selesai, ada yang bikin nangis. Dua-duanya documented.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/PICOCTF-2025)
 
@@ -167,16 +159,43 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 
 ---
 
+## 🍜 Fun Zone
+
+Karena profil yang terlalu serius itu membosankan.
+
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="assets/wink.gif" width="100%" alt="Anime wink — no alerts today" />
+  <br/>
+  <sub><b>POV:</b> nggak ada false positive hari ini. <i>suspicious.</i></sub>
+</td>
+<td width="50%" align="center">
+  <img src="assets/alerts.gif" width="100%" alt="3 AM, 200 alerts, 1 coffee" />
+  <br/>
+  <sub><b>3 AM:</b> 200 alert, 1 kopi, 0 tidur. Klasik.</sub>
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="assets/banner.gif" width="100%" alt="HETSHI-PLAY terminal banner" />
+
+</div>
+
+---
+
 ## 📚 Sedang Dipelajari
 
 - 🧪 **DFIR**: artefak Windows, memory analysis, timeline reconstruction
 - 🛰️ **Detection Engineering**: Sigma rules, MITRE ATT&CK mapping
-- ☁️ **Cloud Security**: dasar-dasar AWS/Azure logging & monitoring
+- ☁️ **Cloud Security**: logging & monitoring dasar AWS/Azure
 - 🐍 **Python untuk security tooling**: parsing log, enrichment, otomasi
 
 ---
 
-## 📫 Hubungi Saya
+## 📫 Kontak
 
 <div align="center">
 
@@ -187,8 +206,9 @@ MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 
 <br/><br/>
 
-<i>"The quieter you become, the more you are able to hear." — Kali Linux</i>
+<i>"The quieter you become, the more you are able to hear."</i><br/>
+<sub>— Kali Linux, dan juga aku jam 3 pagi.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:22d3ee&height=120&section=footer" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:22d3ee&height=120&section=footer" width="100%" alt="Footer" />
