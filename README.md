@@ -2,11 +2,11 @@
   ┌──────────────────────────────────────────────────────────────┐
   │  GitHub Profile README — HETSHI-PLAY                         │
   │                                                              │
-  │  Cara pakai:                                                 │
-  │  1. Buat repo baru dengan nama PERSIS: HETSHI-PLAY           │
-  │  2. Jadikan repo itu Public                                  │
-  │  3. Upload README.md + seluruh folder assets/                │
-  │  4. Ganti bagian yang ditandai [GANTI]                       │
+  │  How to use:                                                 │
+  │  1. Create a repo named EXACTLY: HETSHI-PLAY                 │
+  │  2. Make it Public                                           │
+  │  3. Upload README.md + the whole assets/ folder              │
+  │  4. Replace the parts marked [EDIT]                          │
   └──────────────────────────────────────────────────────────────┘
 -->
 
@@ -20,12 +20,12 @@
 
 <br/>
 
-<!-- GANTI: badge sosial di bawah ini dengan link kamu -->
+<!-- EDIT: social badges below with your own links -->
 <p>
   <a href="https://github.com/HETSHI-PLAY"><img src="https://img.shields.io/badge/GitHub-HETSHI--PLAY-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:emailkamu@example.com"><img src="https://img.shields.io/badge/Email-Kontak-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com/in/usernamekamu"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://tryhackme.com/p/usernamekamu"><img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/your-username"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://tryhackme.com/p/your-username"><img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=HETSHI-PLAY&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views" />
@@ -48,24 +48,24 @@ TOOLING   = "Python · JavaScript · n8n · Docker"
 INTERESTS = "DFIR · Threat Intel · CTF (picoCTF) · anime"
 MOTTO     = "Assume breach. Verify everything. Automate the boring parts."
 
-$ sleep 8 && echo "iya, masih bangun"
+$ sleep 8 && echo "yes, still awake"
 ```
 
-Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, dan sesekali lari ke CTF buat cari flag. Kalau nggak di depan terminal, ya lagi nonton anime. Keseimbangan, katanya.
+Short version: I dig through logs, build small tools that make SOC work a little less painful, and occasionally run off to a CTF to hunt flags. When I'm not at a terminal, I'm probably watching anime. Balance, or something like that.
 
 ---
 
-## 🎯 Lagi Ngapain
+## 🎯 What I'm Up To
 
-- 🔭 Ngerjain **Arbiter** & **DIPTERA** — dua-duanya tool buat bikin hidup analis sedikit lebih waras
-- 🧠 Belajar **Detection Engineering, DFIR, dan Threat Intelligence**
-- 🚩 Main **CTF** (forensics, web, reversing) — mostly buat seneng-seneng
-- ⚙️ Suka ngotomasi workflow SOC pakai **n8n + Python**
-- 🌙 Jam produktif: malam. Jangan tanya soal tidur.
+- 🔭 Building **Arbiter** & **DIPTERA** — two tools that make an analyst's life slightly saner
+- 🧠 Learning **Detection Engineering, DFIR, and Threat Intelligence**
+- 🚩 Playing **CTF** (forensics, web, reversing) — mostly for fun
+- ⚙️ Automating SOC workflows with **n8n + Python**
+- 🌙 Peak productivity hours: nighttime. Don't ask about sleep.
 
 ---
 
-## 🧰 Senjata & Tools
+## 🧰 Arsenal & Tools
 
 <div align="center">
 
@@ -93,10 +93,10 @@ Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, da
 
 ---
 
-## 🚀 Project yang (semoga) berguna
+## 🚀 Projects That (Hopefully) Help
 
 ### 🕵️ Arbiter
-> Meja investigasi SOC *airgapped* buat telemetri **Wazuh** — normalisasi log, korelasi threat intel, nulis kasus insiden, sampai laporan forensik. Biar analis nggak pindah-pindah tab kayak lagi belanja online.
+> An *airgapped* SOC investigation desk for **Wazuh** telemetry — log normalization, threat-intel correlation, incident case authoring, and forensic reporting. So analysts don't have to tab-hop like they're online shopping.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/Arbiter)
 
@@ -105,7 +105,7 @@ Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, da
 ---
 
 ### 🧬 DIPTERA
-> Kirim **banyak form alert sekaligus** ke workflow n8n *Charlie Reporter*, lalu pantau hasilnya per kartu. Cocok buat workflow lambat yang pakai AI lokal: isi 10 alert, klik kirim, tinggalin, balik lagi nanti.
+> Sends **many alert forms at once** to an n8n *Charlie Reporter* workflow, then monitors each result per card. Great for slow local-AI workflows: fill in 10 alerts, hit send, walk away, come back later.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/DIPTERA)
 
@@ -114,7 +114,7 @@ Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, da
 ---
 
 ### 🛰️ NexusSOC
-> Toolkit SOC personal: tools keamanan open-source disatuin ke satu dashboard. Karena alt-tab 27 kali sehari itu bukan hobi.
+> A personal SOC toolkit that pulls open-source security tools into one dashboard. Because alt-tabbing 27 times a day is not a hobby.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/NexusSOC)
 
@@ -123,7 +123,7 @@ Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, da
 ---
 
 ### 🔓 zip-rar_BruteForce
-> Tool Python buat brute force arsip ZIP/RAR. Dibuat buat latihan dan riset — bukan buat nge-hack arsip mantan.
+> A Python tool for brute-forcing ZIP/RAR archives. Built for practice and research — not for breaking into your ex's files.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/zip-rar_BruteForce)
 
@@ -132,7 +132,7 @@ Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, da
 ---
 
 ### 🚩 PICOCTF-2025
-> Writeup dan script penyelesaian challenge **picoCTF 2025**. Ada yang selesai, ada yang bikin nangis. Dua-duanya documented.
+> Writeups and scripts from **picoCTF 2025**. Some were solved, some made me cry. Both are documented.
 
 [![Repo](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HETSHI-PLAY/PICOCTF-2025)
 
@@ -161,19 +161,19 @@ Singkatnya: aku suka ngulik log, bikin tool kecil buat mempercepat kerja SOC, da
 
 ## 🍜 Fun Zone
 
-Karena profil yang terlalu serius itu membosankan.
+Because a profile that takes itself too seriously is boring.
 
 <table>
 <tr>
 <td width="50%" align="center">
   <img src="assets/wink.gif" width="100%" alt="Anime wink — no alerts today" />
   <br/>
-  <sub><b>POV:</b> nggak ada false positive hari ini. <i>suspicious.</i></sub>
+  <sub><b>POV:</b> zero false positives today. <i>suspicious.</i></sub>
 </td>
 <td width="50%" align="center">
   <img src="assets/alerts.gif" width="100%" alt="3 AM, 200 alerts, 1 coffee" />
   <br/>
-  <sub><b>3 AM:</b> 200 alert, 1 kopi, 0 tidur. Klasik.</sub>
+  <sub><b>3 AM:</b> 200 alerts, 1 coffee, 0 sleep. A classic.</sub>
 </td>
 </tr>
 </table>
@@ -186,28 +186,28 @@ Karena profil yang terlalu serius itu membosankan.
 
 ---
 
-## 📚 Sedang Dipelajari
+## 📚 Currently Learning
 
-- 🧪 **DFIR**: artefak Windows, memory analysis, timeline reconstruction
+- 🧪 **DFIR**: Windows artifacts, memory analysis, timeline reconstruction
 - 🛰️ **Detection Engineering**: Sigma rules, MITRE ATT&CK mapping
-- ☁️ **Cloud Security**: logging & monitoring dasar AWS/Azure
-- 🐍 **Python untuk security tooling**: parsing log, enrichment, otomasi
+- ☁️ **Cloud Security**: AWS/Azure logging & monitoring basics
+- 🐍 **Python for security tooling**: log parsing, enrichment, automation
 
 ---
 
-## 📫 Kontak
+## 📫 Contact
 
 <div align="center">
 
-<a href="mailto:emailkamu@example.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://linkedin.com/in/usernamekamu"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://instagram.com/usernamekamu"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://linkedin.com/in/your-username"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://instagram.com/your-username"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 <a href="https://discord.com/users/USERNAME"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 
 <br/><br/>
 
 <i>"The quieter you become, the more you are able to hear."</i><br/>
-<sub>— Kali Linux, dan juga aku jam 3 pagi.</sub>
+<sub>— Kali Linux, and also me at 3 AM.</sub>
 
 </div>
 
